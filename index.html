@@ -31,6 +31,7 @@
                         nav_color: 'var(--Dark-02, #424247)',
                         small_text: 'rgba(19, 19, 24, 0.60)',
                         rating_color: '#F99808',
+                        input_bg: '#13131808',
                     }
                 }
             }
@@ -47,6 +48,10 @@
         .rating i {
             font-size: 24px;
             /* color: #F99808; */
+        }
+        footer p{
+            font-weight: 500;
+            color: #FFFFFF99;
         }
     </style>
 </head>
@@ -73,7 +78,7 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="text-4xl font-extrabold text-h1_color">Hockey<span class="text-p_color">'</span>s</a>
+                    <a class="font-bold lg:text-4xl lg:font-extrabold text-h1_color">Hockey<span class="text-p_color">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -88,7 +93,7 @@
                     <div class="hidden lg:block lg:mr-14">
                         <i class="text-nav_color text-2xl fa-solid fa-magnifying-glass"></i>
                     </div>
-                    <a class="btn bg-p_color text-white font-bold text-xl">Get Ticket</a>
+                    <a class="btn bg-p_color text-white font-bold lg:text-xl">Get Ticket</a>
                 </div>
             </div>
         </nav>
@@ -227,7 +232,7 @@
             </div>
             <div class="my-12 grid grid-cols-1 gap-6 lg:grid-cols-2">
                 <!-- card 1 -->
-                <div class="card lg:card-side border border-solid border-[small_text] lg:p-6">
+                <div class="card lg:card-side border border-solid border-[small_text] p-4 lg:p-6 ">
                     <figure><img src="Images/5.png" alt="Album" /></figure>
                     <div class="card-body">
                         <div class="rating items-center gap-4 text-small_text font-medium">
@@ -250,7 +255,7 @@
                     </div>
                 </div>
                 <!-- card 2 -->
-                <div class="card lg:card-side border border-solid border-[small_text] lg:p-6">
+                <div class="card lg:card-side border border-solid border-[small_text] p-4 lg:p-6">
                     <figure><img src="Images/6.png" alt="Album" /></figure>
                     <div class="card-body">
                         <div class="rating items-center gap-4 text-small_text font-medium">
@@ -273,7 +278,7 @@
                     </div>
                 </div>
                 <!-- card 3 -->
-                <div class="card lg:card-side border border-solid border-[small_text] lg:p-6">
+                <div class="card lg:card-side border border-solid border-[small_text] p-4 lg:p-6">
                     <figure><img src="Images/7.png" alt="Album" /></figure>
                     <div class="card-body">
                         <div class="rating items-center gap-4 text-small_text font-medium">
@@ -296,7 +301,7 @@
                     </div>
                 </div>
                 <!-- card 4 -->
-                <div class="card lg:card-side border border-solid border-[small_text] lg:p-6">
+                <div class="card lg:card-side border border-solid border-[small_text] p-4 lg:p-6">
                     <figure><img src="Images/8.png" alt="Album" /></figure>
                     <div class="card-body">
                         <div class="rating items-center gap-4 text-small_text font-medium">
@@ -319,7 +324,7 @@
                     </div>
                 </div>
                 <!-- card 5 -->
-                <div class="card lg:card-side border border-solid border-[small_text] lg:p-6">
+                <div class="card lg:card-side border border-solid border-[small_text] p-4 lg:p-6">
                     <figure><img src="Images/9.png" alt="Album" /></figure>
                     <div class="card-body">
                         <div class="rating items-center gap-4 text-small_text font-medium">
@@ -342,7 +347,7 @@
                     </div>
                 </div>
                 <!-- card 6 -->
-                <div class="card lg:card-side border border-solid border-[small_text] lg:p-6">
+                <div class="card lg:card-side border border-solid border-[small_text] p-4 lg:p-6">
                     <figure><img src="Images/10.png" alt="Album" /></figure>
                     <div class="card-body">
                         <div class="rating items-center gap-4 text-small_text font-medium">
@@ -379,7 +384,7 @@
             <div class="my-12 border border-solid border-[small_text] rounded-2xl">
                 <div class="hero p-4">
                     <div class="hero-content flex-col lg:flex-row">
-                        <img src="Images/11.png" class="max-w-sm rounded-lg" />
+                        <img src="Images/11.png" class="lg:max-w-sm rounded-lg" />
                         <div>
                             <div class="collapse collapse-plus border-b border-solid border-[#0d0d12 33] rounded-none">
                                 <input type="radio" name="my-accordion-6" checked="checked" />
@@ -387,7 +392,8 @@
                                     <h2 class="text-xl font-extrabold text-h1_color">Our Equipment</h2>
                                 </div>
                                 <div class="collapse-content">
-                                    <p class="text-small_text font-medium">Our product is top quality and if you face any problem contact customer support. Does this solve your issue??? </p>
+                                    <p class="text-small_text font-medium">Our product is top quality and if you face
+                                        any problem contact customer support. Does this solve your issue??? </p>
                                 </div>
                             </div>
                             <div class="collapse collapse-plus border-b border-solid border-[#0d0d12 33] rounded-none">
@@ -396,7 +402,8 @@
                                     <h2 class="text-xl font-extrabold text-h1_color">Hockey Training</h2>
                                 </div>
                                 <div class="collapse-content">
-                                    <p class="text-small_text font-medium">Our product is top quality and if you face any problem contact customer support. Does this solve your issue???</p>
+                                    <p class="text-small_text font-medium">Our product is top quality and if you face
+                                        any problem contact customer support. Does this solve your issue???</p>
                                 </div>
                             </div>
                             <div class="collapse collapse-plus border-b border-solid border-[#0d0d12 33] rounded-none">
@@ -405,7 +412,8 @@
                                     <h2 class="text-xl font-extrabold text-h1_color">Private Lessons</h2>
                                 </div>
                                 <div class="collapse-content">
-                                    <p>Our product is top quality and if you face any problem contact customer support. Does this solve your issue???</p>
+                                    <p>Our product is top quality and if you face any problem contact customer support.
+                                        Does this solve your issue???</p>
                                 </div>
                             </div>
                             <div class="collapse collapse-plus border-b border-solid border-[#0d0d12 33] rounded-none">
@@ -414,7 +422,8 @@
                                     <h2 class="text-xl font-extrabold text-h1_color">Ski Touring</h2>
                                 </div>
                                 <div class="collapse-content">
-                                    <p>Our product is top quality and if you face any problem contact customer support. Does this solve your issue???</p>
+                                    <p>Our product is top quality and if you face any problem contact customer support.
+                                        Does this solve your issue???</p>
                                 </div>
                             </div>
                             <div class="collapse collapse-plus border-b border-solid border-[#0d0d12 33] rounded-none">
@@ -423,7 +432,8 @@
                                     <h2 class="text-xl font-extrabold text-h1_color">Booking</h2>
                                 </div>
                                 <div class="collapse-content">
-                                    <p>Our product is top quality and if you face any problem contact customer support. Does this solve your issue???</p>
+                                    <p>Our product is top quality and if you face any problem contact customer support.
+                                        Does this solve your issue???</p>
                                 </div>
                             </div>
                             <div class="collapse collapse-plus border-b border-solid border-[#0d0d12 33] rounded-none">
@@ -432,7 +442,8 @@
                                     <h2 class="text-xl font-extrabold text-h1_color">Pricing</h2>
                                 </div>
                                 <div class="collapse-content">
-                                    <p>Our product is top quality and if you face any problem contact customer support. Does this solve your issue???</p>
+                                    <p>Our product is top quality and if you face any problem contact customer support.
+                                        Does this solve your issue???</p>
                                 </div>
                             </div>
                         </div>
@@ -441,9 +452,110 @@
             </div>
         </section>
 
-    </main>
-    <footer>
+        <!-- get in touch section -->
+        <section>
+            <div class="border-y-2 border-dashed border-[#0d0d12 33] text-center py-8 space-y-6">
+                <h1 class="text-4xl font-extrabold text-h1_color">Get In Touch</h1>
+                <p class="text-small_text font-medium lg:w-1/2 mx-auto">Whether you're a passionate hockey player, a
+                    dedicated fan, or someone just getting started with the sport, we'd love to hear from you! Our team
+                    at Hockey Club is here to assist you with any inquiries, feedback, or assistance you may need.</p>
+            </div>
+            <div class="my-12 flex flex-col gap-6 lg:flex-row lg:gap-8">
+                <div class="border border-solid border-[small_text] rounded-2xl flex-1 space-y-6 lg:p-12">
+                    <div class="bg-[#BCED6D1A] rounded-2xl p-4 space-y-3 lg:p-8 lg:space-y-6">
+                        <img src="Images/Group 1171275317.png" alt="">
+                        <p>Phone Number</p>
+                        <h3>(+62) 123-456-789</h3>
+                    </div>
+                    <div class="bg-[#FDDD5F1A] rounded-2xl p-4 space-y-3 lg:p-8 lg:space-y-6">
+                        <img src="Images/Group 1171275318.png" alt="">
+                        <p>Email</p>
+                        <h3>hockeys@support.com</h3>
+                    </div>
+                    <div class="bg-input_bg rounded-2xl p-4 space-y-3 lg:p-8 lg:space-y-6">
+                        <img src="Images/Group 1171275321.png" alt="">
+                        <p>Location</p>
+                        <h3>1523/ 1 Mohakhali Wireless Gate</h3>
+                    </div>
+                </div>
+                <div class=" flex-1 space-y-8">
+                    <div class="flex flex-col gap-5 lg:flex-row lg:gap-6">
+                        <div class="space-y-4">
+                            <h3 class="text-2xl font-bold">Your Name</h3>
+                            <input type="text" placeholder="Enter Your Full Name"
+                                class="input w-full max-w-xs bg-input_bg" />
+                            <h3 class="text-2xl font-bold">Subject</h3>
+                            <input type="text" placeholder="Enter your subject"
+                                class="input w-full max-w-xs bg-input_bg" />
+                        </div>
+                        <div class="space-y-4">
+                            <h3 class="text-2xl font-bold">
+                                Your Email
+                            </h3>
+                            <input type="email" placeholder="Enter your email"
+                                class="input w-full max-w-xs bg-input_bg" />
+                            <h3 class="text-2xl font-bold">
+                                Phone Number
+                            </h3>
+                            <input type="number" placeholder="Enter your phone number"
+                                class="input w-full max-w-xs bg-input_bg" />
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold">Message</h3>
+                    <textarea class="bg-input_bg block rounded-xl w-full h-1/3 p-4" placeholder="Write your message" name="" id="" cols="" rows=""></textarea>
+                    <a class="btn bg-p_color text-white font-bold text-xl w-full">Send Message</a>
+                </div>
+            </div>
+            <div class="my-12 bg-input_bg rounded-xl text-center py-9 space-y-6">
+                <h2 class="text-2xl font-extrabold text-h1_color">Social Media</h2>
+                <div class="icon flex gap-5 justify-center items-center text-xl">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </section>
 
+    </main>
+    <footer class="bg-h1_color p-14 grid gap-10 grid-cols-1 text-center lg:text-left lg:grid-cols-3 lg:p-24 lg:gap-40">
+        <div class="text-white space-y-5">
+            <h1 class="text-3xl font-extrabold">Get In Touch</h1>
+            <p>Explore the exciting world of hockey with our latest updates, news, and exclusive content. Connect with us on social media to join the passionate community of hockey enthusiasts. For any inquiries, feel free to reach out to our dedicated team.</p>
+            <div class="flex gap-4 items-center">
+                <i class="fa-regular fa-envelope text-p_color"></i>
+                <p>hockeys@support.com</p>
+            </div>
+            <div class="flex gap-4 items-center">
+                <i class="fa-solid fa-phone text-p_color"></i>
+                <p>(+62) 123-456-789</p>
+            </div>
+        </div>
+        <div class="flex justify-between gap-3">
+            <div class="text-white space-y-5">
+                <h1 class="text-2xl font-bold">Company</h1>
+                <p>About us</p>
+                <p>Leadership</p>
+                <p>Careers</p>
+                <p>News $ Article</p>
+                <p>Legal Notice</p>
+            </div>
+            <div class="text-white space-y-5">
+                <h1 class="text-2xl font-bold">Support</h1>
+                <p>Help center</p>
+                <p>FAQ</p>
+                <p>Ticket Support</p>
+                <p>Contact Us</p>
+            </div>
+        </div>
+        <div class="text-white space-y-5">
+            <h1 class="text-2xl font-bold">Services</h1>
+            <p>Academy</p>
+            <p>Group Lesson</p>
+            <p>Private Lesson</p>
+            <p>Kockeys for Kids</p>
+            <p>Kockeys for Adult</p>
+        </div>
     </footer>
 </body>
 
